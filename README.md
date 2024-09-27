@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @Dara
-- 👀 I’m interested in ...programming
-- 🌱 I’m currently learning ...javascript
-- 💞️ I’m looking to collaborate on ...javascript projects
+- 👀 I’m curious about software development 
+- 💞️ I’m looking to collaborate on ... projects
 - 📫 How to reach me ...@dsmalldara on twitter
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Dsmalldara&theme=gotham)
