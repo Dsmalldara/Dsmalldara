@@ -25,7 +25,7 @@ jobs:
       run: linguist > language-stats.txt
 
     - name: Upload language statistics
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: language-stats
         path: language-stats.txt
