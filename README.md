@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Dara
 - 👀 I’m curious about software development 
 - 💞️ I’m looking to collaborate on ... projects
-- 📫 How to reach me ...@dsmalldara on twitter
+- 📫 How to reach me ...@dsmalldara on twitter 
 
 
 <!---
