@@ -1,0 +1,31 @@
+name: Language Statistics
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+
+    - name: Install Linguist
+      run: gem install github-linguist
+
+    - name: Analyze languages
+      run: linguist > language-stats.txt
+
+    - name: Upload language statistics
+      uses: actions/upload-artifact@v2
+      with:
+        name: language-stats
+        path: language-stats.txt
