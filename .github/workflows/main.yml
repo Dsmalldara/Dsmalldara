@@ -18,6 +18,9 @@ jobs:
       with:
         ruby-version: '2.7'
 
+    - name: Install Bundler
+      run: gem install bundler
+
     - name: Install Linguist
       run: gem install github-linguist
 
